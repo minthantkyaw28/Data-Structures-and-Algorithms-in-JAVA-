@@ -1,0 +1,25 @@
+20/Jan/2024 Saturday
+
+Stack Data Structure
+
+Last in First out
+
+There are some basic operations that allow us to perform different actions on a stack.
+Push: Add an element to the top of a stack
+Pop: Remove an element from the top of a stack
+IsEmpty: Check if the stack is empty
+IsFull: Check if the stack is full
+Peek: Get the value of the top element without removing it
+Search : Just search
+
+
+Stack of Number
+Stack of String
+
+Implementing Stack Data Structure using Primitive Data are pretty straight forward.
+
+But Non-Primitive Data are complex to use in Stack Data Structure.
+It results in nested data inside nested data structure.
+
+I learned Stack of Number and Stack of String.
+But there is not much luck in implementing Stack with Array for today.
