@@ -1,9 +1,6 @@
 import data_structures.Stack;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class main {
     public static void main(String[] args) {
@@ -30,22 +27,48 @@ public class main {
 //        System.out.println("Size: " + stack.size());
 
 //        Queue Data Type
-          Queue<String> queue= new LinkedList<String>();
+//          Queue<String> queue= new LinkedList<String>();
+//          queue.add("A");
+//          queue.add("B");
+//          queue.add("C");
+//
+//          System.out.println(queue);
+//
+//          queue.poll();
+//
+//          System.out.println(queue);
+//
+//          System.out.println(queue.isEmpty());
+//          System.out.println(queue.size());
+//          System.out.println(queue.contains("B"));
+//
+//         Priority Queue Data Type
+//         Double
+//            Queue<Double> queue= new PriorityQueue<>(Collections.reverseOrder());
+//
+//            queue.offer(5.2);
+//            queue.offer(1.2);
+//            queue.offer(2.2);
+//            queue.offer(3.2);
+//            queue.offer(6.1);
+//
+//            while(!queue.isEmpty()){
+//                System.out.println(queue);
+//            }
+//         Priority Queue Data Type
+//         String
+        Queue<String> queue= new PriorityQueue<>(Collections.reverseOrder());
 
+        queue.offer("B");
+        queue.offer("Z");
+        queue.offer("C");
+        queue.offer("J");
+        queue.offer("A");
 
-          queue.add("A");
-        queue.add("B");
-        queue.add("C");
+        while(!queue.isEmpty()){
+            System.out.println(queue);
+        }
 
-        System.out.println(queue);
-
-        queue.poll();
-
-        System.out.println(queue);
-
-        System.out.println(queue.isEmpty());
-        System.out.println(queue.size());
-        System.out.println(queue.contains("B"));
 
     }
 }
