@@ -57,17 +57,37 @@ public class main {
 //            }
 //         Priority Queue Data Type
 //         String
-        Queue<String> queue= new PriorityQueue<>(Collections.reverseOrder());
+//        Queue<String> queue= new PriorityQueue<>(Collections.reverseOrder());
+//
+//        queue.offer("B");
+//        queue.offer("Z");
+//        queue.offer("C");
+//        queue.offer("J");
+//        queue.offer("A");
+//
+//        while(!queue.isEmpty()){
+//            System.out.println(queue);
+//        }
 
-        queue.offer("B");
-        queue.offer("Z");
-        queue.offer("C");
-        queue.offer("J");
-        queue.offer("A");
 
-        while(!queue.isEmpty()){
-            System.out.println(queue);
-        }
+        LinkedList<String> linkedList= new LinkedList<String>();
+
+        linkedList.push("A");
+        linkedList.push("B");
+        linkedList.push("C");
+        linkedList.push("D");
+        linkedList.push("E");
+        linkedList.pop();
+
+        linkedList.offer("A");
+        linkedList.offer("B");
+        linkedList.offer("C");
+        linkedList.offer("D");
+        linkedList.offer("E");
+
+        linkedList.poll();
+
+        System.out.println(linkedList);
 
 
     }
