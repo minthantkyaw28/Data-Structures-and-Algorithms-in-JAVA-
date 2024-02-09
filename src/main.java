@@ -1,3 +1,4 @@
+import algorithms.linearSearch;
 import data_structures.DynamicArray;
 import data_structures.Stack;
 
@@ -91,9 +92,20 @@ public class main {
 //        System.out.println(linkedList);
 
 //Dynamic Array
-        DynamicArray dynamicArray = new DynamicArray(5);
+       // DynamicArray dynamicArray = new DynamicArray(5);
+
+//Linear Search
+        int[] array = {9, 1, 8, 2, 7, 3, 6, 4, 5};
 
 
+        linearSearch ls=new linearSearch(array,3);
+        int index=ls.LinearSearchFunc();
+        if(index != -1) {
+            System.out.println("Element found at index: " + index);
+        }
+        else {
+            System.out.println("Element not found");
+        }
 
     }
 }
