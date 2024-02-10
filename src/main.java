@@ -95,17 +95,35 @@ public class main {
        // DynamicArray dynamicArray = new DynamicArray(5);
 
 //Linear Search
-        int[] array = {9, 1, 8, 2, 7, 3, 6, 4, 5};
+//        int[] array = {9, 1, 8, 2, 7, 3, 6, 4, 5};
+//
+//
+//        linearSearch ls=new linearSearch(array,3);
+//        int index=ls.LinearSearchFunc();
+//        if(index != -1) {
+//            System.out.println("Element found at index: " + index);
+//        }
+//        else {
+//            System.out.println("Element not found");
+//        }
+
+        //Binary Search
+        int array[] = new int[1000000];
+        int target = 777777;
+
+        for(int i = 0; i < array.length; i++) {
+            array[i] = i;
+        }
+
+        //int index = Arrays.binarySearch(array, target);
+        int index = Arrays.binarySearch(array, target);
 
 
-        linearSearch ls=new linearSearch(array,3);
-        int index=ls.LinearSearchFunc();
-        if(index != -1) {
-            System.out.println("Element found at index: " + index);
+        if(index == -1) {
+            System.out.println(target + " not found");
         }
         else {
-            System.out.println("Element not found");
+            System.out.println("Element found at: " + index);
         }
-
     }
 }
