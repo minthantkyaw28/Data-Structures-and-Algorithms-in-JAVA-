@@ -109,22 +109,22 @@ public class main {
 
         //Binary Search
         //Using JAVA built in Binary Search method
-        int array[] = new int[1000000];
-        int target = 777777;
-
-        for(int i = 0; i < array.length; i++) {
-            array[i] = i;
-        }
-
-        //int index = Arrays.binarySearch(array, target);
-        int index = Arrays.binarySearch(array, target);
-
-
-        if(index == -1) {
-            System.out.println(target + " not found");
-        }
-        else {
-            System.out.println("Element found at: " + index);
-        }
+//        int array[] = new int[1000000];
+//        int target = 777777;
+//
+//        for(int i = 0; i < array.length; i++) {
+//            array[i] = i;
+//        }
+//
+//        //int index = Arrays.binarySearch(array, target);
+//        int index = Arrays.binarySearch(array, target);
+//
+//
+//        if(index == -1) {
+//            System.out.println(target + " not found");
+//        }
+//        else {
+//            System.out.println("Element found at: " + index);
+//        }
     }
 }
