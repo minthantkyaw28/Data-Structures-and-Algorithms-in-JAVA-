@@ -108,6 +108,7 @@ public class main {
 //        }
 
         //Binary Search
+        //Using JAVA built in Binary Search method
         int array[] = new int[1000000];
         int target = 777777;
 
